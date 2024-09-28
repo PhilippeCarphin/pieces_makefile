@@ -12,3 +12,7 @@ renders/%.pdf:tmp/%.ly
 clean:
 	rm -f renders/*.pdf
 	rm -f tmp/*.ly
+
+vars:
+	@echo "PIECES: $(PIECES)"
+	@echo "RENDERS: $(RENDERS)"
